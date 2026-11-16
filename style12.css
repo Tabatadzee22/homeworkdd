@@ -1,0 +1,54 @@
+body {
+    background-color: #f7f7f7;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 400px;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+    padding: 14px 20px;
+    border-radius: 50px;
+    gap: 15px;
+}
+
+.message img {
+    width: 24px;
+    height: 24px;
+}
+
+.message span {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.error {
+    background-color: #fcf1f1;
+    color: #555555;
+}
+
+.success {
+    background-color: #effcf3;
+    color: #555555;
+}
+
+.alert {
+    background-color: #fff7eb;
+    color: #555555;
+}
+
+.information {
+    background-color: #f1f3fc;
+    color: #555555;
+}
